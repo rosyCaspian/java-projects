@@ -1,0 +1,290 @@
+14-Nov-2020 16:28:32.561 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.59
+14-Nov-2020 16:28:32.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Oct 6 2020 16:57:18 UTC
+14-Nov-2020 16:28:32.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.59.0
+14-Nov-2020 16:28:32.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+14-Nov-2020 16:28:32.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.16
+14-Nov-2020 16:28:32.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+14-Nov-2020 16:28:32.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home
+14-Nov-2020 16:28:32.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.8+10-LTS
+14-Nov-2020 16:28:32.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+14-Nov-2020 16:28:32.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 16:28:32.569 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 16:28:32.571 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2020 16:28:32.571 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2020 16:28:32.571 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2020 16:28:32.571 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/conf/logging.properties
+14-Nov-2020 16:28:32.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2020 16:28:32.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2020 16:28:32.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2020 16:28:32.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2020 16:28:32.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+14-Nov-2020 16:28:32.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 16:28:32.572 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 16:28:32.573 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/temp
+14-Nov-2020 16:28:32.573 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/caspian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+14-Nov-2020 16:28:32.607 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+14-Nov-2020 16:28:32.622 严重 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: 协议处理程序初始化失败
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1077)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:848)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:461)
+		at java.base/sun.nio.ch.Net.bind(Net.java:453)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:587)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1075)
+		... 13 more
+14-Nov-2020 16:28:32.623 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 521 ms
+14-Nov-2020 16:28:32.668 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+14-Nov-2020 16:28:32.668 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+14-Nov-2020 16:28:32.690 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/example_war.war]
+14-Nov-2020 16:28:32.856 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+14-Nov-2020 16:28:33.248 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+14-Nov-2020 16:28:33.299 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/example_war.war]的部署已在[607]ms内完成
+14-Nov-2020 16:28:33.300 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/docs]
+14-Nov-2020 16:28:33.323 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/docs]的部署已在[23]毫秒内完成
+14-Nov-2020 16:28:33.323 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/manager]
+14-Nov-2020 16:28:33.370 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/manager]的部署已在[46]毫秒内完成
+14-Nov-2020 16:28:33.370 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/examples]
+14-Nov-2020 16:28:33.629 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/examples]的部署已在[259]毫秒内完成
+14-Nov-2020 16:28:33.629 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/ROOT]
+14-Nov-2020 16:28:33.644 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/ROOT]的部署已在[14]毫秒内完成
+14-Nov-2020 16:28:33.644 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/host-manager]
+14-Nov-2020 16:28:33.659 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/host-manager]的部署已在[15]毫秒内完成
+14-Nov-2020 16:28:33.663 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 1039 ms
+14-Nov-2020 16:28:33.667 严重 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:436)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:421)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+14-Nov-2020 16:28:33.668 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+14-Nov-2020 16:28:33.668 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+14-Nov-2020 16:28:33.691 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+14-Nov-2020 16:28:33.691 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+14-Nov-2020 16:51:43.709 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.59
+14-Nov-2020 16:51:43.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Oct 6 2020 16:57:18 UTC
+14-Nov-2020 16:51:43.714 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.59.0
+14-Nov-2020 16:51:43.715 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+14-Nov-2020 16:51:43.715 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.16
+14-Nov-2020 16:51:43.715 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+14-Nov-2020 16:51:43.715 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home
+14-Nov-2020 16:51:43.715 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.8+10-LTS
+14-Nov-2020 16:51:43.715 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+14-Nov-2020 16:51:43.716 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 16:51:43.716 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 16:51:43.718 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2020 16:51:43.718 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2020 16:51:43.718 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2020 16:51:43.718 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/conf/logging.properties
+14-Nov-2020 16:51:43.718 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2020 16:51:43.719 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2020 16:51:43.719 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2020 16:51:43.719 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2020 16:51:43.719 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+14-Nov-2020 16:51:43.719 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 16:51:43.719 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 16:51:43.719 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/temp
+14-Nov-2020 16:51:43.719 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/caspian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+14-Nov-2020 16:51:43.755 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+14-Nov-2020 16:51:43.771 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Nov-2020 16:51:43.783 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 530 ms
+14-Nov-2020 16:51:43.829 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+14-Nov-2020 16:51:43.829 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+14-Nov-2020 16:51:43.853 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/bank.war]
+14-Nov-2020 16:51:43.983 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+14-Nov-2020 16:51:44.387 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+14-Nov-2020 16:51:44.430 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/bank.war]的部署已在[575]ms内完成
+14-Nov-2020 16:51:44.431 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/ROOT]
+14-Nov-2020 16:51:44.448 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/ROOT]的部署已在[17]毫秒内完成
+14-Nov-2020 16:51:44.450 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+14-Nov-2020 16:51:44.461 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 677 ms
+14-Nov-2020 16:53:09.385 警告 [main] org.apache.catalina.core.StandardServer.await 收到无效的关闭命令[]
+14-Nov-2020 16:53:14.490 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/example_war]
+14-Nov-2020 16:53:14.519 警告 [localhost-startStop-2] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+14-Nov-2020 16:53:14.828 信息 [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+14-Nov-2020 16:53:14.830 信息 [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/example_war]的部署已在[340]毫秒内完成
+14-Nov-2020 16:53:44.846 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/example_war]
+14-Nov-2020 16:53:45.369 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/bank]
+14-Nov-2020 16:53:45.377 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/example_war.war]
+14-Nov-2020 16:53:45.421 警告 [localhost-startStop-3] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+14-Nov-2020 16:53:45.625 信息 [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+14-Nov-2020 16:53:45.628 信息 [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/example_war.war]的部署已在[251]ms内完成
+14-Nov-2020 16:53:56.136 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/example_war]
+14-Nov-2020 16:53:56.146 信息 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/bank.war]
+14-Nov-2020 16:53:56.186 警告 [localhost-startStop-4] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+14-Nov-2020 16:53:56.397 信息 [localhost-startStop-4] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+14-Nov-2020 16:53:56.398 信息 [localhost-startStop-4] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/bank.war]的部署已在[252]ms内完成
+14-Nov-2020 21:53:30.653 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.59
+14-Nov-2020 21:53:30.658 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Oct 6 2020 16:57:18 UTC
+14-Nov-2020 21:53:30.658 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.59.0
+14-Nov-2020 21:53:30.658 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+14-Nov-2020 21:53:30.658 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.16
+14-Nov-2020 21:53:30.658 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+14-Nov-2020 21:53:30.658 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home
+14-Nov-2020 21:53:30.658 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.8+10-LTS
+14-Nov-2020 21:53:30.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+14-Nov-2020 21:53:30.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 21:53:30.659 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 21:53:30.660 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+14-Nov-2020 21:53:30.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+14-Nov-2020 21:53:30.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Nov-2020 21:53:30.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/conf/logging.properties
+14-Nov-2020 21:53:30.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Nov-2020 21:53:30.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+14-Nov-2020 21:53:30.661 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Nov-2020 21:53:30.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Nov-2020 21:53:30.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+14-Nov-2020 21:53:30.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 21:53:30.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac
+14-Nov-2020 21:53:30.662 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/temp
+14-Nov-2020 21:53:30.662 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/caspian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+14-Nov-2020 21:53:30.699 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+14-Nov-2020 21:53:30.732 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Nov-2020 21:53:30.744 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 635 ms
+14-Nov-2020 21:53:30.794 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+14-Nov-2020 21:53:30.794 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+14-Nov-2020 21:53:30.821 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/bank.war]
+14-Nov-2020 21:53:30.956 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+14-Nov-2020 21:53:31.393 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+14-Nov-2020 21:53:31.448 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/bank.war]的部署已在[624]ms内完成
+14-Nov-2020 21:53:31.449 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/ROOT]
+14-Nov-2020 21:53:31.464 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/ROOT]的部署已在[15]毫秒内完成
+14-Nov-2020 21:53:31.467 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+14-Nov-2020 21:53:31.476 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 732 ms
+14-Nov-2020 22:46:12.842 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess 从更新的字眼[file:/Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/conf/tomcat-users.xml]重新加载内存用户数据库
+14-Nov-2020 22:46:12.844 严重 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.open 指定用户数据库[conf/tomcat-users.xml]未找到
+14-Nov-2020 22:46:12.845 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.open 关闭 [conf/tomcat-users.xml] 失败
+	java.io.FileNotFoundException: /Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/conf/tomcat-users.xml (No such file or directory)
+		at java.base/java.io.FileInputStream.open0(Native Method)
+		at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+		at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+		at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:466)
+		at org.apache.catalina.users.MemoryUserDatabase.backgroundProcess(MemoryUserDatabase.java:689)
+		at org.apache.catalina.realm.UserDatabaseRealm.backgroundProcess(UserDatabaseRealm.java:160)
+		at org.apache.catalina.realm.CombinedRealm.backgroundProcess(CombinedRealm.java:309)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1145)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+14-Nov-2020 22:46:13.351 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[]
+14-Nov-2020 22:46:13.368 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [ROOT] 的JDBC驱动程序注销失败
+	java.lang.NullPointerException
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1657)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1596)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1548)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:452)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5435)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:834)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1417)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1344)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+14-Nov-2020 22:46:13.885 信息 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy 正在取消部署上下文[/bank]
+14-Nov-2020 22:46:13.892 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc Web应用程序 [bank] 的JDBC驱动程序注销失败
+	java.lang.IllegalStateException: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:257)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:280)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:62)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:215)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1129)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:1655)
+		at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:1596)
+		at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:1548)
+		at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:452)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5435)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:834)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1417)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1344)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1603)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1381)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1385)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1353)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.io.IOException: java.lang.reflect.InvocationTargetException
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:209)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:187)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:308)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 24 more
+	Caused by: java.lang.reflect.InvocationTargetException
+		at java.base/jdk.internal.reflect.GeneratedConstructorAccessor7.newInstance(Unknown Source)
+		at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+		at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:206)
+		... 27 more
+	Caused by: java.nio.file.NoSuchFileException: /Users/caspian/Desktop/tomcat-servlet/index/tomcat-8.5.59-mac/webapps/bank/WEB-INF/lib/mysql-connector-java-8.0.22.jar
+		at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+		at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+		at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+		at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:149)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1763)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1217)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:727)
+		at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:836)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:247)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:177)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:348)
+		... 31 more
+14-Nov-2020 22:46:13.895 警告 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[bank]似乎启动了一个名为[mysql-cj-abandoned-connection-cleanup]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.base@11.0.8/java.lang.Object.wait(Native Method)
+ java.base@11.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.8/java.lang.Thread.run(Thread.java:834)]
+14-Nov-2020 22:46:15.712 信息 [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+	java.lang.IllegalStateException: 非法访问：此Web应用程序实例已停止。无法加载[]。为了调试以及终止导致非法访问的线程，将抛出以下堆栈跟踪。
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1378)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1030)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
