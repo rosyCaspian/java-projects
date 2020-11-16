@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-i18n-ru.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/websocket-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-i18n-es.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/catalina-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/jaspic-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/catalina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-i18n-ja.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-i18n-de.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-i18n-zh-CN.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/catalina-ha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/catalina-storeconfig.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/catalina-tribes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-i18n-fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-jni.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-util-scan.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/ecj-4.6.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/tomcat-i18n-ko.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/lib/annotations-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

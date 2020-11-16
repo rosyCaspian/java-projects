@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:04 +0800] "GET / HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:04 +0800] "GET /assets/css/app.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:04 +0800] "GET /assets/js/chunk-vendors.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:04 +0800] "GET /assets/js/app.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:04 +0800] "GET /assets/css/chunk-vendors.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:05 +0800] "GET /api/process/record HTTP/1.1" 404 726
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:05 +0800] "GET /assets/fonts/element-icons.woff HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:09 +0800] "GET /bank/info HTTP/1.1" 200 2356
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:52:17 +0800] "GET /api/process/record HTTP/1.1" 404 726
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:53:35 +0800] "GET /bank/info HTTP/1.1" 200 2356
+0:0:0:0:0:0:0:1 - - [15/Nov/2020:10:53:50 +0800] "GET /api/process/record HTTP/1.1" 404 726

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="index">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-windows-x64.zip!/" />
+      <root url="jar://$PROJECT_DIR$/index/lib.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

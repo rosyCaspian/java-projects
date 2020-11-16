@@ -5,7 +5,7 @@
          version="4.0">
     <servlet>
         <servlet-name>Example</servlet-name>
-        <servlet-class>com.caspian.servies.Example</servlet-class>
+        <servlet-class>com.caspian.service.Example</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Example</servlet-name>

@@ -1,0 +1,37 @@
+15-Nov-2020 10:51:57.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/8.5.59
+15-Nov-2020 10:51:57.107 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Oct 6 2020 16:57:18 UTC
+15-Nov-2020 10:51:57.107 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     8.5.59.0
+15-Nov-2020 10:51:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Mac OS X
+15-Nov-2020 10:51:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.16
+15-Nov-2020 10:51:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              x86_64
+15-Nov-2020 10:51:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     /Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home
+15-Nov-2020 10:51:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    11.0.8+10-LTS
+15-Nov-2020 10:51:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+15-Nov-2020 10:51:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+15-Nov-2020 10:51:57.108 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+15-Nov-2020 10:51:57.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.lang=ALL-UNNAMED
+15-Nov-2020 10:51:57.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.base/java.io=ALL-UNNAMED
+15-Nov-2020 10:51:57.110 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/conf/logging.properties
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/temp
+15-Nov-2020 10:51:57.111 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[/Users/caspian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+15-Nov-2020 10:51:57.151 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+15-Nov-2020 10:51:57.182 信息 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+15-Nov-2020 10:51:57.194 信息 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 634 ms
+15-Nov-2020 10:51:57.243 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+15-Nov-2020 10:51:57.243 信息 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+15-Nov-2020 10:51:57.264 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/bank.war]
+15-Nov-2020 10:51:57.392 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion 未知版本字符串 [4.0]。将使用默认版本。
+15-Nov-2020 10:51:57.831 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+15-Nov-2020 10:51:57.884 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/bank.war]的部署已在[617]ms内完成
+15-Nov-2020 10:51:57.886 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/ROOT]
+15-Nov-2020 10:51:57.899 信息 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/ROOT]的部署已在[13]毫秒内完成
+15-Nov-2020 10:51:57.902 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+15-Nov-2020 10:51:57.911 信息 [main] org.apache.catalina.startup.Catalina.start Server startup in 716 ms

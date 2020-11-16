@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/webapps/bank/WEB-INF/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/webapps/bank/WEB-INF/lib/snakeyaml-1.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/webapps/bank/WEB-INF/lib/fastjson-1.2.75.jar!/" />
+      <root url="jar://$PROJECT_DIR$/index/tomcat-8.5.59-mac/webapps/bank/WEB-INF/lib/mysql-connector-java-8.0.22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

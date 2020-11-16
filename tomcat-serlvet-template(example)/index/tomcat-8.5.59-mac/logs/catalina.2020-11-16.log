@@ -1,0 +1,111 @@
+16-Nov-2020 14:04:48.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.59
+16-Nov-2020 14:04:48.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 16:57:18 UTC
+16-Nov-2020 14:04:48.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.59.0
+16-Nov-2020 14:04:48.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+16-Nov-2020 14:04:48.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+16-Nov-2020 14:04:48.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+16-Nov-2020 14:04:48.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home
+16-Nov-2020 14:04:48.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+16-Nov-2020 14:04:48.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2020 14:04:48.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+16-Nov-2020 14:04:48.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+16-Nov-2020 14:04:48.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2020 14:04:48.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2020 14:04:48.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2020 14:04:48.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/conf/logging.properties
+16-Nov-2020 14:04:48.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2020 14:04:48.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2020 14:04:48.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2020 14:04:48.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Nov-2020 14:04:48.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Nov-2020 14:04:48.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+16-Nov-2020 14:04:48.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+16-Nov-2020 14:04:48.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/temp
+16-Nov-2020 14:04:48.387 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/caspian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+16-Nov-2020 14:04:48.431 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 14:04:48.466 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Nov-2020 14:04:48.479 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 652 ms
+16-Nov-2020 14:04:48.529 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2020 14:04:48.530 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+16-Nov-2020 14:04:48.550 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/bank.war]
+16-Nov-2020 14:04:48.682 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+16-Nov-2020 14:04:49.140 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2020 14:04:49.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/bank.war] has finished in [641] ms
+16-Nov-2020 14:04:49.193 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/ROOT]
+16-Nov-2020 14:04:49.207 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/ROOT] has finished in [14] ms
+16-Nov-2020 14:04:49.210 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 14:04:49.219 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 739 ms
+16-Nov-2020 14:24:35.816 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+16-Nov-2020 14:25:28.644 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+16-Nov-2020 14:40:43.275 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+16-Nov-2020 14:42:35.121 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+16-Nov-2020 14:42:39.696 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/example_war]
+16-Nov-2020 14:42:39.737 WARNING [localhost-startStop-2] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+16-Nov-2020 14:42:40.064 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2020 14:42:40.067 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/example_war] has finished in [371] ms
+16-Nov-2020 14:44:05.854 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+16-Nov-2020 14:46:30.678 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/example_war]
+16-Nov-2020 14:46:40.729 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bank]
+16-Nov-2020 14:46:40.736 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bank] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Nov-2020 14:46:40.737 WARNING [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bank] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.8/java.lang.Object.wait(Native Method)
+ java.base@11.0.8/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.8/java.lang.Thread.run(Thread.java:834)
+16-Nov-2020 14:46:40.742 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/bank.war]
+16-Nov-2020 14:46:40.789 WARNING [localhost-startStop-3] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+16-Nov-2020 14:46:41.016 INFO [localhost-startStop-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2020 14:46:41.018 INFO [localhost-startStop-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/bank.war] has finished in [276] ms
+16-Nov-2020 14:46:41.056 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1378)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1030)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+16-Nov-2020 14:47:03.987 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Nov-2020 14:47:03.988 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 14:47:03.997 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2020 14:47:04.010 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 14:47:04.014 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 14:47:11.134 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.59
+16-Nov-2020 14:47:11.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2020 16:57:18 UTC
+16-Nov-2020 14:47:11.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.59.0
+16-Nov-2020 14:47:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+16-Nov-2020 14:47:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.16
+16-Nov-2020 14:47:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+16-Nov-2020 14:47:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home
+16-Nov-2020 14:47:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.8+10-LTS
+16-Nov-2020 14:47:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2020 14:47:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+16-Nov-2020 14:47:11.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+16-Nov-2020 14:47:11.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2020 14:47:11.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2020 14:47:11.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2020 14:47:11.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/conf/logging.properties
+16-Nov-2020 14:47:11.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2020 14:47:11.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2020 14:47:11.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2020 14:47:11.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Nov-2020 14:47:11.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Nov-2020 14:47:11.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+16-Nov-2020 14:47:11.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac
+16-Nov-2020 14:47:11.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/temp
+16-Nov-2020 14:47:11.143 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/caspian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+16-Nov-2020 14:47:11.185 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 14:47:11.202 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Nov-2020 14:47:11.214 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 486 ms
+16-Nov-2020 14:47:11.255 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2020 14:47:11.255 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.59
+16-Nov-2020 14:47:11.275 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/bank.war]
+16-Nov-2020 14:47:11.403 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+16-Nov-2020 14:47:11.796 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2020 14:47:11.836 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/bank.war] has finished in [561] ms
+16-Nov-2020 14:47:11.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/ROOT]
+16-Nov-2020 14:47:11.853 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/caspian/Documents/programming/project/java-projects/tomcat-serlvet-template(example)/index/tomcat-8.5.59-mac/webapps/ROOT] has finished in [16] ms
+16-Nov-2020 14:47:11.856 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2020 14:47:11.864 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 650 ms
